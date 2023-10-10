@@ -1,0 +1,165 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: black;
+}
+header{
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+#bar{
+    float: right;
+}
+#bar li{
+    display: inline-block;
+    padding: 10px;
+}
+#bar #sign_in{
+    background: green;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.links{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li.links a:hover{
+    text-decoration: underline;
+}
+#sign_in:hover{
+    box-shadow: 5px 5px 10px green;
+}
+#sign_in{
+    color: black;
+}
+.Browser{
+    font-style: oblique;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 120px;
+    padding-bottom: 30px;
+    color: skyblue;
+    font-size: 30px;
+}
+.form{
+    text-align: center;
+}
+#search{
+    width: 300px;
+    line-height: 2px;
+    padding: 20px 15px;
+    border-radius: 20px;
+}
+form #search{
+    padding: 5px 20px;
+}
+#search:hover{
+    padding-top: 0;
+}
+.buttons{
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 100px;
+}
+footer{
+    background: #f2f2f2;
+    border-top: solid 2px #e4e4e4;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 0;
+    width: 100%;
+}
+footer ul li{
+    display: inline;
+    color: #666666;
+    font-size: 16px;
+    padding: 15px;
+}
+footer ul{
+    float: left;
+    padding: 1px;
+}
+footer ul a:hover{
+    text-decoration: underline;
+}
+.right{
+    float: right;
+}
+
+.screen{
+    max-width: 400px;
+
+    li.links a{
+        display: none;
+    }
+    #browser{
+        padding: 0;
+    }
+    .buttons{
+        display: none;
+    }
+    #search{
+        width: 50%;
+    }
+    footer{
+        bottom: 0;
+    }
+    footer ul{
+        float: none;
+        padding-bottom: 2px;
+    }
+    .left{
+        text-align: center;
+        margin: auto;
+        padding-top: 10px;
+    }
+    .right{
+        float: none;
+        text-align: center;
+    }    
+}
+
+.screen{
+    max-width: 565px;
+    
+    li.links a{
+        display: none;
+    }
+    #browser{
+        padding: 0;
+    }
+    .buttons{
+        display: none;
+    }
+    #search{
+        width: 50%;
+    }
+    footer{
+        position: absolute;
+        bottom: 0;
+        width: 100px;
+        height: 60px;
+    }
+    footer ul{
+        float: none;
+        padding-bottom: 2px;
+    }
+    .left{
+        text-align: center;
+        margin: auto;
+        padding-top: 10px;
+    }
+    .right{
+        float: none;
+        text-align: center;
+    }
+}
